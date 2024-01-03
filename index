@@ -1,82 +1,139 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>CV Landing Page</title>
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-
-        .jumbotron {
-            background-color: #007bff;
-            color: #ffffff;
-        }
-
-        .card {
-            margin-top: 20px;
-        }
-
-        .footer {
-            background-color: #343a40;
-            color: #ffffff;
-            padding: 20px 0;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+<html>
+<head >
+<title>CURRICULUM VITAE</title>
+<style type="text/css">
+h1{
+background-color: blue;
+padding: 4px;
+}
+h2{
+color: white;
+background-color: black;
+padding: 3px;
+}
+.menu {
+text-align: center;
+background-color: black;
+font-size:18px;
+padding-top: 16pt;
+}
+.button {
+background-color: white;
+padding: 5px;
+border-color: black;
+text-decoration: none;
+}
+.button:hover {
+background-color: blue;
+}
+</style>
 </head>
-
 <body>
-
-    <div class="jumbotron text-center">
-        <h1 class="display-4">ekom komalasari</h1>
-        <p class="lead">Mahasiswa Bisnis Digital dengan berbagai pengalaman kerja dan pelatihan di bidang kelistrikan. Memiliki kemampuan dalam melakukan rancangan kegiatan, mendalami ilmu tentang kelistrikan dan mengoprasikannya dalam kehidupan sehari-hari. Memiliki keinginan untuk mengembangkan kemampuan pada memanajemen orang lain</p>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Pendidikan</h5>
-                        <p class="card-text">politeknik pgri banten - bisnis digital, 2022</p>
-                        <p class="card-text">SMA/SMK - ips, 2021</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Pengalaman Kerja</h5>
-                        <p class="card-text">Indekos - Pegawai Penjaga Kos Bertugas menjaga kos , Membantu customer yang ingin reservasi, 2022</p>
-                        <p class="card-text">toko - Cashier ,Menjaga bagian Cashier , Mengecek stok barang, 2022</p>
-                        <p class="card-text">BLK. Teknik Listrik , Kegiatan ini kita diajarkan mulai dari dasar listrik itu sendiri sampai pada perangkaiannya, 2022</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer text-center">
-        <p>&copy; 2023 ekom komalasari. All Rights Reserved.</p>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
-</body>
-
-</html>
+<div class="menu">
+<a href="#1" class="button">Profile</a>
+<a href="#2" class="button">Education</a>
+<a href="#3" class="button">Expertise</a>
+<a href="#4" class="button">Experience</a>
+<a href="#5" class="button">Contack</a>
+<br><br>
+</div>
+<h1 align="center">CURRICULUM VITAE</h1>
+<table align="center" border="1">
+<tr><td colspan="2" bgcolor="#fff000"><img src="rj.jpg" width="325px" height="200px" border="2"></td></tr>
+<tr align="center">
+<td> 089509558893 </td>
+<td> ekomkomalasari1505@gmail.com </td></tr>
+</table>
+<h2 id="1">PROFILE</h2>
+<table align="center">
+<tr>
+<td width="1%">Name</td>
+<td width="10%">: ekom komalasari</td>
+</tr>
+<tr>
+<td width="1%">Place of Birth</td>
+<td width="10%">: Cilegon</td>
+</tr>
+<tr>
+<td width="1%">Date of Birth</td>
+<td width="10%">: 15 mei 2001</td>
+</tr>
+<tr>
+<td width="1%">Adress</td>
+<td width="10%">: JLN. dahlia II  Link.Ramanuju baru Rt:01 Rw:09 Kelurahan citangkil,Kecamatan Citangkil,Kota Cilegon,Banten 42441</td>
+</tr>
+</table>
+<h2 id="2">EDUCATION</h2>
+<table align="center">
+<tr>
+<td width="1%">University</td>
+<td width="10%">: Politeknik PGRI Banten </td>
+</tr>
+<tr>
+<td width="1%">Department</td>
+<td width="10%">: Bisnis Digital</td>
+</tr>
+<tr>
+<td width="1%">IPK</td>
+<td width="10%">: 3,44</td>
+</tr>
+</table>
+<h2 id="3">EXPERTISE</h2>
+<table align="center">
+<tr>
+<td width="1%">Digital Marketing</td>
+<td width="10%">: Marketing Management,Supply Chain Management</td>
+</tr>
+<tr>
+<td width="1%">karyawan</td>
+<td width="10%">: Indekos
+Pegawai Penjaga Kos
+•
+Bertugas menjaga kos
+•
+Membantu customer yang ingin reservasi
+08/21 - 12/21
+Toko
+Cashier
+•
+Menjaga bagian Cashier
+• Mengecek stok barang
+05/22 - 07/22
+BLK. Teknik Listrik
+Pelatihan Program Pemasangan Listrik Bangunan Sederhana
+• Kegiatan ini kita diajarkan mulai dari dasar listrik itu sendiri sampai pada perangkaiannya </td>
+</tr>
+<tr>
+<td width="1%">Others</td>
+<td width="10%">: C#, Java, .NET, Etc.</td>
+</tr>
+</table>
+<h2 id="4">EXPERIENCE</h2>
+<table align="center">
+<tr>
+<td width="1%">Naura Celullar</td>
+<td width="10%">: karyawan</td>
+</tr>
+</table>
+<h2 id="5">CONTACK</h2>
+<table align="center">
+<tr>
+<td width="1%">Instagram</td>
+<td width="10%">: ekom_komalasari1505</td>
+</tr>
+<tr>
+<td width="1%">Facebook</td>
+<td width="10%">: ekom komalasari</td>
+</tr>
+<tr>
+<td width="1%">Tiktok</td>
+<td width="10%">: @ekomkomalasari1505</td>
+</tr>
+</table>
+<footer>
+<p align="center">
+<font align="center" font color="blue">
+<b>Copyright&copy; 2024</b> Created with HTML <a href="https://www.instagram.com/ekom_komalasari1505/">ekom_komalasari1505</a>
+</font>
+</footer>
+</body> </html>
